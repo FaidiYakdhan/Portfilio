@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Faidi Yakdhane</title>
+    <!-- Lien vers le fichier CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+
+    <!-- Header / Navigation -->
     <header>
         <nav>
             <ul>
+                <li><a href="#home">Accueil</a></li>
                 <li><a href="#about">À propos</a></li>
                 <li><a href="#skills">Compétences</a></li>
                 <li><a href="#projects">Projets</a></li>
@@ -18,52 +24,137 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <h1>Bonjour, je suis <span>Faidi Yakdhane</span></h1>
-        <p>Développeur Full Stack passionné basé en Tunisie</p>
-        <a href="#contact" class="btn">Contactez-moi</a>
-    </section>
-
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Étudiant en développement de systèmes avec une passion pour les technologies innovantes et les solutions pratiques.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Mes Compétences</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>PHP, Angular, Flutter</li>
-            <li>Java, C++, Python</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projets Réalisés</h2>
-        <div class="project">
-            <h3>Projet 1</h3>
-            <p>Description du projet 1.</p>
-        </div>
-        <div class="project">
-            <h3>Projet 2</h3>
-            <p>Description du projet 2.</p>
+    <!-- Section Accueil -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Bonjour, je suis <span>Faidi Yakdhane</span></h1>
+            <p>Développeur Full Stack Web & Mobile avec une passion pour les technologies innovantes</p>
+            <a href="#contact" class="btn">Contactez-moi</a>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <input type="text" placeholder="Votre nom" required>
-            <input type="email" placeholder="Votre email" required>
-            <textarea placeholder="Votre message"></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+    <!-- À propos de moi -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>À propos de moi</h2>
+            <p>Je suis un étudiant en développement de systèmes, passionné par la programmation et les technologies. Mon parcours m'a permis d'acquérir des compétences en développement web et mobile, en gestion des systèmes, et en maintenance logicielle. J'ai effectué plusieurs stages dans des entreprises de premier plan, ce qui m'a permis de développer mon sens de l'innovation et de la résolution de problèmes.</p>
+
+            <h3>Coordonnées</h3>
+            <p><strong>Localisation :</strong> Tunisie</p>
+            <p><strong>Téléphone :</strong> +216 22 327 250</p>
+            <p><strong>Email :</strong> <a href="mailto:fyacdhan@gmail.com">fyacdhan@gmail.com</a></p>
+        </div>
     </section>
 
+    <!-- Compétences -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <h3>Technologies Front-End</h3>
+                    <p>HTML, CSS, JavaScript, React, Angular</p>
+                </div>
+                <div class="skill">
+                    <h3>Développement Back-End</h3>
+                    <p>Node.js, Python, PHP, Bases de données relationnelles et non relationnelles</p>
+                </div>
+                <div class="skill">
+                    <h3>Développement Mobile</h3>
+                    <p>Flutter, React Native</p>
+                </div>
+                <div class="skill">
+                    <h3>Système & DevOps</h3>
+                    <p>C/C++, Git, Déploiement Cloud, Sécurité Web, Gestion des serveurs</p>
+                </div>
+                <div class="skill">
+                    <h3>Outils & Frameworks</h3>
+                    <p>Visual Studio, GitHub, Figma, Adobe Creative Suite, Android Studio, SQL Server</p>
+                </div>
+                <div class="skill">
+                    <h3>Design</h3>
+                    <p>UI/UX Design, Graphic Design, Video Editing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projets Réalisés</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Mobile Booking App (Flutter)</h3>
+                    <p>Développé une application mobile pour la réservation de services, en mettant l'accent sur une expérience utilisateur fluide et l'intégration d'API.</p>
+                </div>
+                <div class="project">
+                    <h3>E-commerce Website (PHP, Angular)</h3>
+                    <p>Création d'un site e-commerce responsive avec des fonctionnalités de filtrage avancées et une intégration de passerelle de paiement sécurisée.</p>
+                </div>
+                <div class="project">
+                    <h3>Home Automation System (C++ avec ESP32)</h3>
+                    <p>Conception d'un système embarqué utilisant C++ et un microcontrôleur ESP32 pour l'automatisation des appareils ménagers et la gestion de la température et de l'éclairage via une application mobile.</p>
+                </div>
+                <div class="project">
+                    <h3>Task Management Platform (Java)</h3>
+                    <p>Création d'un système de gestion des tâches en Java permettant le suivi des projets, l'attribution des tâches et la génération de rapports de progrès.</p>
+                </div>
+                <div class="project">
+                    <h3>Real-Time Chat Application (JavaScript, Node.js)</h3>
+                    <p>Développement d'une application de chat en temps réel avec JavaScript et Node.js, intégrant la messagerie instantanée, les chats de groupe et le chiffrement des données.</p>
+                </div>
+                <div class="project">
+                    <h3>Inventory Management System (PHP, MySQL)</h3>
+                    <p>Création d'une plateforme de gestion des stocks pour optimiser le suivi des stocks, le traitement des commandes et la gestion des fournisseurs.</p>
+                </div>
+                <div class="project">
+                    <h3>Online Learning Platform (Angular)</h3>
+                    <p>Développement d'une plateforme d'apprentissage en ligne utilisant Angular, avec gestion des cours, diffusion de vidéos, questionnaires et personnalisation des profils utilisateurs.</p>
+                </div>
+                <div class="project">
+                    <h3>Weather Monitoring Dashboard (Flutter & API Integration)</h3>
+                    <p>Création d'une application mobile Flutter pour surveiller et afficher des données météorologiques en temps réel, intégrée à une API publique et offrant des mises à jour personnalisées.</p>
+                </div>
+                <div class="project">
+                    <h3>Server-Side Application (PHP, REST API)</h3>
+                    <p>Développement d'une application côté serveur en PHP pour la gestion de l'authentification utilisateur, du traitement des données et de l'interaction avec la base de données via une API RESTful.</p>
+                </div>
+                <div class="project">
+                    <h3>Big Data Analysis Project (Python, Hadoop)</h3>
+                    <p>Réalisation d'un projet d'analyse de big data avec Python et Hadoop, traitant de grands ensembles de données pour identifier des tendances et générer des insights, avec des outils de visualisation des données.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Votre Nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Votre Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Votre Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Faidi Yakdhane. Tous droits réservés.</p>
+        <div class="container">
+            <p>&copy; 2024 Faidi Yakdhane. Tous droits réservés.</p>
+        </div>
     </footer>
 
+    <!-- Lien vers le fichier JS -->
     <script src="script.js"></script>
 </body>
 </html>

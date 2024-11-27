@@ -1,65 +1,56 @@
-$primary-color: #4caf50;
-$secondary-color: #333;
-$font-family: 'Arial, sans-serif';
+// // Variables
+// $primary-color: #007bff;
+// $secondary-color: #6c757d;
+// $bg-light: #f8f9fa;
+// $text-color: #212529;
 
-body {
-    margin: 0;
-    font-family: $font-family;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: $secondary-color;
-}
+// // Global Styles
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//     font-family: 'Arial', sans-serif;
+// }
 
-header {
-    background: $primary-color;
-    color: #fff;
-    padding: 1rem 0;
+// body {
+//     color: $text-color;
+// }
 
-    nav ul {
-        display: flex;
-        list-style: none;
-        justify-content: center;
-        padding: 0;
+// h1, h2 {
+//     color: $primary-color;
+//     font-weight: bold;
+// }
 
-        li a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-}
+// #hero {
+//     background-color: $primary-color;
+//     color: #fff;
+//     padding: 50px 0;
+// }
 
-#hero {
-    text-align: center;
-    padding: 2rem 1rem;
-    background: #333;
-    color: #fff;
+// section {
+//     padding: 60px 0;
+// }
 
-    .btn {
-        display: inline-block;
-        margin-top: 1rem;
-        padding: 0.5rem 1rem;
-        background: $primary-color;
-        color: #fff;
-        text-decoration: none;
-        &:hover {
-            background: darken($primary-color, 10%);
-        }
-    }
-}
+// footer {
+//     background-color: $primary-color;
+//     color: white;
+// }
 
-/* Autres sections */
-section {
-    margin: 2rem 0;
-    padding: 1rem;
-}
+// // Skills Chart Section
+// #skills {
+//     background-color: $bg-light;
+// }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: $secondary-color;
-    color: #fff;
-}
+// canvas {
+//     max-width: 100%;
+//     height: auto;
+// }
+
+// // Button Style
+// .btn {
+//     transition: all 0.3s ease;
+// }
+
+// .btn:hover {
+//     background-color: darken($primary-color, 10%);
+// }
